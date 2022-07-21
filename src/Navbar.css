@@ -1,38 +1,84 @@
 .nav-bg {
-    background-color: #333;
+    background-color: #152D35;
     color: aliceblue;
     border-radius: 2rem 0rem 0rem 2rem;
+    box-shadow: #000 1px 3px 9px;
 }
 
-.site-title {
-    font-size: 1.2rem;
-}
-
-.nav-bg ul {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    gap: 1rem;
-}
-
-.nav-bg li:hover {
-    background-color: #777;
-    color: black;
-}
-
-.nav-bg li.active {
-    background-color: #555;
-}
-
-nav a {
-    color: inherit;
-    text-decoration: none;
-    
-}
-
+/* ////////////////// this is nav profile css /////////////////*/
 .nav-profile img {
     border-radius: 50%;
     width: 200px;
     align-items: center;
     margin: 4rem 4rem 1rem 4rem;
 }
+/* ///////////////////////////////////////////////////////////*/
+/* ////////////////// this is nav menu css /////////////////*/
+.nav-menu {
+    font-size: 1.2rem;
+    margin: 2rem;
+}
+
+.nav-bg ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.nav-bg li {
+    margin: 2rem 1rem;
+    text-align: left;
+    transition: 0.3s;
+}
+
+.nav-bg li:hover {
+    background-color: #345B63;
+    border-radius: 1rem;
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+
+.nav-bg li.active {
+    background-color: #D4ECDD;
+    border-radius: 1rem;
+    transform: scale(1.1);
+}
+
+.nav-bg li.active a {
+    color: black;
+}
+
+nav a {
+    color: inherit;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: aliceblue;
+}
+
+nav span {
+    font-size: 16px;
+    margin-left: 2rem;
+}
+/* //////////////////////////////////////////////////////// */
+/* ////////////////// this is nav footer css /////////////////*/
+
+.nav-footer {
+    margin: 3rem 1rem;
+}
+
+.nav-icons {
+    margin: 0.5rem;
+    transition: 0.3s;
+}
+
+.nav-icons:hover {
+    transform: scale(1.5);
+    transition: 0.3s;
+}
+
+.text {
+    font-size: 12px;
+}
+/* ////////////////////////////////////////////////////////// */

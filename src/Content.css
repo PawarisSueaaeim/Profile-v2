@@ -1,6 +1,23 @@
-/* this is home css */
+/* this is content css */
 .content-bg {
-    background-color: bisque;
+    border-radius: 0rem 2rem 2rem 0rem;
+    background-color: #D4ECDD;
     width: 100%;
     color: black;
+    opacity: 0.9;
+    box-shadow: #000 0px 3px 9px;
+}
+
+.container {
+    margin: 3rem;
+}
+
+.content-box {
+    margin: 1.5rem;
+    background-color: #152D35;
+    border-radius: 2rem;
+}
+
+.content-bg h3 {
+    text-align: left;
 }

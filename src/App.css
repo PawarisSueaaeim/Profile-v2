@@ -1,7 +1,14 @@
 .App {
-  margin: 7rem 5rem 0rem 5rem;
+  margin: 3rem 5rem 0rem 5rem;
   text-align: center;
   display: flex;
+}
+
+/* for teblets */
+@media only screen and (max-width: 768px) {
+  .App {
+    display: contents;
+  }
 }
 
 
