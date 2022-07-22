@@ -18,22 +18,37 @@
     background-color: #152D35;
     border-radius: 1.5rem;
     color: #D4ECDD;
-    display: flex;
+    display: block;
     padding: 2rem;
     text-align: left;
 }
 
 .left-side {
-    width: 40%;
+    width: 100%;
     align-content: center;
     justify-content: center;
     text-align: center;
 }
 
 .right-side {
-    width: 60%;
+    width: 70%;
 }
 
 .typing {
     font-size: 30px;
+}
+
+p {
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.home-resume {
+    font-size: 16px;
+    text-align: center;
+}
+
+.icons {
+    font-size: 35px;
+
 }

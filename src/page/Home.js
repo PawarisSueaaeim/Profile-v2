@@ -1,19 +1,18 @@
 import React from "react";
 import "../Content.css";
 import ReactTypingEffect from "react-typing-effect";
+import * as FaIcons from "react-icons/fa";
 
 export default function Home() {
   return (
     <div className="content-bg">
       <div className="container">
-        <h3>Home</h3>
+        <h1>Home</h1>
         <div className="content-box">
           <div className="left-side">
             <ReactTypingEffect
               className="typing"
-              text={[
-                "Hello, My name is Pawaris Sueaaeim Computer Engineering",
-              ]}
+              text={["Hello, My name is Pawaris Sueaaeim Computer Engineering"]}
               speed={80}
               eraseDelay={500}
             />
@@ -33,6 +32,22 @@ export default function Home() {
               Engineer/IT Support at The amata city, Is a company related to the
               production of auto parts.
             </p>
+            <p>
+              Spatial metavers:{" "}
+              <a
+                href="https://spatial.io/s/PAWARISs-Digital-World-627892af5c8a2e0001d0f632?share=2006685969420519881"
+                terget="_blank"
+              >
+                Matavers room
+              </a>
+            </p>
+            <h2>Educations</h2>
+            <p>High school Mathematics-Science program</p>
+            <p>Bachelor's degree of Computer Engineering</p>
+          </div>
+          <div className="home-resume">
+            <FaIcons.FaFileDownload className="icons" />
+            <p>Resume Download</p>
           </div>
         </div>
       </div>

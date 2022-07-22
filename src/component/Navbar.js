@@ -36,16 +36,16 @@ export default function Navbar() {
         </ul>
       </div>
       <div className="nav-footer">
-        <a href="#">
+        <a href="https://github.com/PawarisSueaaeim" target="_blank">
           <img className="nav-icons" src="https://img.icons8.com/glyph-neue/40/000000/github.png" />
         </a>
-        <a href="#" >
+        <a href="https://web.facebook.com/profile.php?id=100006235390790" target="_blank">
           <img className="nav-icons" src="https://img.icons8.com/color/40/000000/facebook-new.png" />
         </a>
-        <a href="#" >
+        <a href="https://www.instagram.com/pleumqz/" target="_blank">
           <img className="nav-icons" src="https://img.icons8.com/color/40/000000/instagram-new--v1.png" />
         </a>
-        <a href="#" >
+        <a href="https://www.youtube.com/channel/UChRwgbwyZU1eZFuqilV9bmg/featured" target="_blank">
           <img className="nav-icons" src="https://img.icons8.com/color/40/000000/youtube-play.png" />
         </a><br/>
         <p className="text">© 2022 Pawaris Suea-aeim Computer Engineering</p>
