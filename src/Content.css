@@ -14,7 +14,8 @@
 }
 
 .content-box {
-    margin: 1.5rem;
+    margin: 0.5rem;
+    margin-top: 2rem;
     background-color: #152D35;
     border-radius: 1.5rem;
     color: #D4ECDD;
