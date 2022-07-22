@@ -12,7 +12,10 @@ export default function Home() {
           <div className="left-side">
             <ReactTypingEffect
               className="typing"
-              text={["Hello, My name is Pawaris Sueaaeim Computer Engineering"]}
+              text={[
+                "Hello, My name is Pawaris Suea-aeim",
+                "I'm a Computer Engineer",
+              ]}
               speed={80}
               eraseDelay={500}
             />
@@ -46,7 +49,9 @@ export default function Home() {
             <p>Bachelor's degree of Computer Engineering</p>
           </div>
           <div className="home-resume">
-            <FaIcons.FaFileDownload className="icons" />
+            <a href="../img/PawarisResume.pdf" download>
+              <FaIcons.FaFileDownload className="icons" />
+            </a>
             <p>Resume Download</p>
           </div>
         </div>
