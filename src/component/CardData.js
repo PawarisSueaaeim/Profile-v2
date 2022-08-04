@@ -1,9 +1,36 @@
-import React from 'react'
+import React from "react";
 
 export const CardData = [
-    {
-        name: 'Classroom Attendance Management System',
-        skills: 'react',
-        cName: 'card'
-    }
-]
+  {
+    name: "CAMS",
+    skills: "react",
+  },
+  {
+    name: "CAMS",
+    skills: "react",
+  },
+  {
+    name: "CAMS",
+    skills: "react",
+  },
+  {
+    name: "CAMS",
+    skills: "react",
+  },
+  {
+    name: "CAMS",
+    skills: "react",
+  },
+  {
+    name: "CAMS",
+    skills: "react",
+  },
+  {
+    name: "CAMS",
+    skills: "react",
+  },
+  {
+    name: "CAMS",
+    skills: "react",
+  },
+];

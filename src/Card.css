@@ -1,4 +1,9 @@
-.card {
+.pleum-card {
     background-color: aliceblue;
     color: #000;
+    margin: 1rem;
+    width: 250px;
+    height: 300px;
+    border-radius: 1rem;
+    box-shadow: #000 1px 2px 2px;
 }
