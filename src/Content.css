@@ -22,6 +22,17 @@
     box-shadow: #000 1px 3px 3px;
 }
 
+.content-flex {
+  display: flex;
+  margin: 0.5rem;
+  margin-top: 2rem;
+  background-color: #152D35;
+  border-radius: 1.5rem;
+  color: #D4ECDD;
+  padding: 2rem;
+  box-shadow: #000 1px 3px 3px;
+}
+
 .content-box {
     margin: 0.5rem;
     margin-top: 2rem;
