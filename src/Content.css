@@ -22,15 +22,30 @@
     box-shadow: #000 1px 3px 3px;
 }
 
-.content-flex {
-  display: flex;
+.content-2-grid {
+  display: grid;
   margin: 0.5rem;
   margin-top: 2rem;
   background-color: #152D35;
   border-radius: 1.5rem;
   color: #D4ECDD;
+  text-align: center;
+  justify-content: center;
+  grid-gap: 2rem;
   padding: 2rem;
+  grid-template-columns: auto auto;
   box-shadow: #000 1px 3px 3px;
+}
+
+.certificate-card  img{
+  width: 400px;
+  border-radius: 0.5rem;
+  transition: 0.3s;
+}
+
+.certificate-card img:hover {
+  transition: 0.3s;
+  transform: scale(1.1);
 }
 
 .content-box {

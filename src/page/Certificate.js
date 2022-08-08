@@ -1,15 +1,22 @@
-import React from 'react'
-import '../Content.css'
+import React from "react";
+import "../Content.css";
+import { CertificateData } from "../component/CertificateData";
 
 export default function Certificate() {
   return (
     <div className="content-bg">
-    <div className="container">
-      <h4>Certificate</h4>
-    <div className='content-flex'>
-
+      <div className="container">
+        <h4>Certificate</h4>
+        <div className="content-2-grid">
+          {CertificateData.map((items) => {
+            return (
+              <div className="certificate-card">
+                {items.image}
+              </div>
+            );
+          })}
+        </div>
+      </div>
     </div>
-    </div>
-    </div>
-  )
+  );
 }

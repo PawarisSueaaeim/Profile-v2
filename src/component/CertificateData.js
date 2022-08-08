@@ -1,13 +1,16 @@
 import React from "react";
 
-export const Cardata = [
-    {
-        image: <img src={require('../img/profile.png')}/>
-    },{
-        image: <img src={require('../img/profile.png')}/>
-    },{
-        image: <img src={require('../img/profile.png')}/>
-    },{
-        image: <img src={require('../img/profile.png')}/>
-    }
+export const CertificateData = [
+  {
+    image: <img src={require("../img/Certificate1.jpg")} />,
+  },
+  {
+    image: <img src={require("../img/Certificate1.jpg")} />,
+  },
+  {
+    image: <img src={require("../img/Certificate1.jpg")} />,
+  },
+  {
+    image: <img src={require("../img/Certificate1.jpg")} />,
+  },
 ];
