@@ -99,6 +99,17 @@ a {
     transition: 0.3s;
 }
 
+.comment-input {
+  border-radius: 30px;
+  width: 100%;
+  border: none;
+  height: 3rem;
+}
+
+.data-list {
+  
+}
+
 /* ////////////////////////////////////////// this is css of exp page /////////////////////////// */
 .timeline {
     position: relative;
