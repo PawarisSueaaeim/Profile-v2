@@ -1,10 +1,7 @@
 import React from "react";
 import "../Content.css";
-import Form from "react-bootstrap/Form";
-import Button from "react-bootstrap/Button";
-import { db } from "../db/db";
 import * as FaIcons from "react-icons/fa";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { addComment, getComment } from "../db/utilities";
 
 export default function Comment() {
@@ -31,7 +28,10 @@ export default function Comment() {
       // console.log('test updated comment')
     });
   }
-
+  
+  useEffect( () => {
+    updateCommentList();
+  },[]);
   return (
     <div className="content-bg">
       <div className="container">
@@ -58,12 +58,11 @@ export default function Comment() {
           </form>
           <div className="data-list mt-5">
             <ul id="comment-list">
-              {console.log(getCommentList)}
               {getCommentList.map((items, index) => {
                 return (
-                  <li key={index}>
-                    {items.comment}
-                  </li>
+                  <p key={index}>
+                    <FaIcons.FaRegUserCircle className="users-icons"/> {items.comment}
+                  </p>
                 )
               })}
             </ul>
