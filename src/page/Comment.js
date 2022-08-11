@@ -2,24 +2,34 @@ import React from "react";
 import "../Content.css";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
-import { db } from "../db";
-import { collection, getDocs, addDoc, setDoc, doc } from "firebase/firestore";
-import { query, where, onSnapshot } from "firebase/firestore";
+import { db } from "../db/db";
 import * as FaIcons from "react-icons/fa";
 import { useState } from "react";
-
+import { addComment, getComment } from "../db/utilities";
 
 export default function Comment() {
+  const [comment, setComment] = useState("");
+  const [getCommentList, setGetCommentList] = useState([]);
 
-  const [comment, setComment] = useState('');
-
-  function handleSubmit(e){
+  function handleSubmit(e) {
     e.preventDefault();
     const data = {
       comment: comment,
-    }
+    };
     console.log(data);
-    setComment('');
+    if (data.comment === "") {
+      alert("Please enter a comment");
+    } else {
+      addComment(data);
+    }
+    setComment("");
+  }
+
+  function updateCommentList() {
+    getComment().then((com) => {
+      setGetCommentList(com);
+      // console.log('test updated comment')
+    });
   }
 
   return (
@@ -35,26 +45,27 @@ export default function Comment() {
               id="comment"
               placeholder="Comment..."
               className="comment-input mt-3"
-              onChange={ (e) => {
+              onChange={(e) => {
                 //dom
                 setComment(e.target.value);
               }}
               value={comment}
             />
             <br />
-            <button type="submit" id="btn" className="btn btn-primary mt-3">
+            <button onClick={updateCommentList} type="submit" id="btn" className="btn btn-primary mt-3">
               Submit
             </button>
           </form>
           <div className="data-list mt-5">
             <ul id="comment-list">
-              {/* {data.map((data, index) => {
+              {console.log(getCommentList)}
+              {getCommentList.map((items, index) => {
                 return (
                   <li key={index}>
-                    {data.comment}
+                    {items.comment}
                   </li>
-                );
-              })} */}
+                )
+              })}
             </ul>
           </div>
         </div>
