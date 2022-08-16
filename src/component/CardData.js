@@ -23,29 +23,28 @@ export const CardData = [
     ],
   },
   {
-    name: "Crud System Augular",
+    name: "UX/UI Design Pet house",
     skills: [
-      
+      <img src="https://img.icons8.com/color/48/000000/adobe-xd--v1.png"/>,
     ],
   },
   {
-    name: "CAMS",
-    skills: "react",
+    name: "Face recognition",
+    skills: [
+      <img src="https://img.icons8.com/color/48/000000/python--v1.png"/>,
+    ],
   },
   {
-    name: "CAMS",
-    skills: "react",
+    name: "CRM Business Intelligence",
+    skills: [
+      <img src="https://img.icons8.com/color/48/000000/power-bi.png"/>,
+    ],
   },
   {
-    name: "CAMS",
-    skills: "react",
-  },
-  {
-    name: "CAMS",
-    skills: "react",
-  },
-  {
-    name: "CAMS",
-    skills: "react",
-  },
+    name: "Cyber security on client",
+    skills: [
+      <img width="48" src="https://seeklogo.com/images/S/sangfor-logo-154CA0F776-seeklogo.com.png"/>,
+      <img src="https://img.icons8.com/color/48/000000/symantec.png"/>,
+    ],
+  }
 ];
