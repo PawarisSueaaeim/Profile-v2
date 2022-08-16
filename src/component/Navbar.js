@@ -2,11 +2,14 @@ import React from "react";
 import "../Navbar.css";
 import { Link, useMatch, useResolvedPath } from "react-router-dom";
 import * as FaIcons from "react-icons/fa";
+import Form from 'react-bootstrap/Form';
+import SwitchDarkmode from "./Switchdarkmode";
 
 export default function Navbar() {
   return (
     <nav className="nav-bg">
       <div className="nav-profile">
+        <SwitchDarkmode/>
         <img src={require("../img/profile.png")} />
         <h5>Pawaris Suea-aeim</h5>
         <h6>I'm a Computer Engineering</h6>
@@ -37,17 +40,36 @@ export default function Navbar() {
       </div>
       <div className="nav-footer">
         <a href="https://github.com/PawarisSueaaeim" target="_blank">
-          <img className="nav-icons" src="https://img.icons8.com/glyph-neue/40/000000/github.png" />
+          <img
+            className="nav-icons"
+            src="https://img.icons8.com/glyph-neue/40/000000/github.png"
+          />
         </a>
-        <a href="https://web.facebook.com/profile.php?id=100006235390790" target="_blank">
-          <img className="nav-icons" src="https://img.icons8.com/color/40/000000/facebook-new.png" />
+        <a
+          href="https://web.facebook.com/profile.php?id=100006235390790"
+          target="_blank"
+        >
+          <img
+            className="nav-icons"
+            src="https://img.icons8.com/color/40/000000/facebook-new.png"
+          />
         </a>
         <a href="https://www.instagram.com/pleumqz/" target="_blank">
-          <img className="nav-icons" src="https://img.icons8.com/color/40/000000/instagram-new--v1.png" />
+          <img
+            className="nav-icons"
+            src="https://img.icons8.com/color/40/000000/instagram-new--v1.png"
+          />
         </a>
-        <a href="https://www.youtube.com/channel/UChRwgbwyZU1eZFuqilV9bmg/featured" target="_blank">
-          <img className="nav-icons" src="https://img.icons8.com/color/40/000000/youtube-play.png" />
-        </a><br/>
+        <a
+          href="https://www.youtube.com/channel/UChRwgbwyZU1eZFuqilV9bmg/featured"
+          target="_blank"
+        >
+          <img
+            className="nav-icons"
+            src="https://img.icons8.com/color/40/000000/youtube-play.png"
+          />
+        </a>
+        <br />
         <p className="text">© 2022 Pawaris Suea-aeim Computer Engineering</p>
       </div>
     </nav>
