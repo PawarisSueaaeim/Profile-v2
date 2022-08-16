@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className="content-bg">
       <div className="container">
-        <h4>Home</h4>
+        <h1>Home</h1>
         <div className="content-box">
           <div className="left-side">
             <ReactTypingEffect

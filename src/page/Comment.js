@@ -35,7 +35,7 @@ export default function Comment() {
   return (
     <div className="content-bg">
       <div className="container">
-        <h4>Comment</h4>
+        <h1>Comment</h1>
         <div className="content-box">
           <form id="comment" onSubmit={handleSubmit}>
             <label htmlFor="comment">Comment for me</label>

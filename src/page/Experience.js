@@ -5,7 +5,7 @@ export default function Experience() {
   return (
     <div className="content-bg">
       <div className="container">
-        <h4>Experience</h4>
+        <h1>Experience</h1>
         <div className="content-box">
           <div className="timeline">
             <div className="container-exp left">
