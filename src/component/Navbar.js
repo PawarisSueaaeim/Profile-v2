@@ -1,15 +1,16 @@
 import React from "react";
 import "../Navbar.css";
+import "../switch.css";
 import { Link, useMatch, useResolvedPath } from "react-router-dom";
 import * as FaIcons from "react-icons/fa";
-import Form from 'react-bootstrap/Form';
 import SwitchDarkmode from "./Switchdarkmode";
+import Switchdarkmode from "./Switchdarkmode";
 
 export default function Navbar() {
   return (
     <nav className="nav-bg">
+      <div className="switch-darkmode"><SwitchDarkmode/></div>
       <div className="nav-profile">
-        <SwitchDarkmode/>
         <img src={require("../img/profile.png")} />
         <h5>Pawaris Suea-aeim</h5>
         <h6>I'm a Computer Engineering</h6>
