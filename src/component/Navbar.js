@@ -4,7 +4,6 @@ import "../switch.css";
 import { Link, useMatch, useResolvedPath } from "react-router-dom";
 import * as FaIcons from "react-icons/fa";
 import SwitchDarkmode from "./Switchdarkmode";
-import Switchdarkmode from "./Switchdarkmode";
 
 export default function Navbar() {
   return (
