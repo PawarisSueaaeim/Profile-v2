@@ -37,6 +37,11 @@ export default function Navbar() {
             <span>Comment</span>
           </CustomLink>
         </ul>
+        {/* <a className="nav-responsive" onClick={() => {
+          var 
+        }}>
+
+        </a> */}
       </div>
       <div className="nav-footer">
         <a href="https://github.com/PawarisSueaaeim" target="_blank">

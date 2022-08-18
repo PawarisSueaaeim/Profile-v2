@@ -260,5 +260,6 @@ a {
 
     .container {
       margin: 1rem;
+      padding: 0;
     }
 }

@@ -1,4 +1,6 @@
 .switch-darkmode {
-    float: right;
+    margin: 1rem;
+    text-align: right;
     margin: 2rem 2rem 0 0;
+    position: relative;
 }

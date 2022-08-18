@@ -62,6 +62,10 @@ nav span {
     font-size: 16px;
     margin-left: 2rem;
 }
+
+.nav .nav-responsive {
+    display: none;
+}
 /* //////////////////////////////////////////////////////// */
 /* ////////////////// this is nav footer css /////////////////*/
 
@@ -92,8 +96,17 @@ nav span {
         border-radius: 0;
     }
 
+    .nav-menu {
+        display: none;
+    }
+
     .nav-profile {
         margin: 0;
         padding: 0;
+    }
+
+    .nav-footer {
+        position: inherit;
+        align-items: center;
     }
 }
