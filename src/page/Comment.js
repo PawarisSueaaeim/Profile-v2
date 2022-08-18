@@ -28,16 +28,16 @@ export default function Comment() {
       // console.log('test updated comment')
     });
   }
-  
-  useEffect( () => {
+
+  useEffect(() => {
     updateCommentList();
-  },[]);
+  }, []);
   return (
     <div className="content-bg">
       <div className="container">
         <h1>Comment</h1>
         <div className="content-box">
-          <form id="comment" onSubmit={handleSubmit}>
+          {/* <form id="comment" onSubmit={handleSubmit}>
             <label htmlFor="comment">Comment for me</label>
             <br />
             <input
@@ -55,15 +55,21 @@ export default function Comment() {
             <button onClick={updateCommentList} type="submit" id="btn" className="btn btn-primary mt-3">
               Submit
             </button>
-          </form>
+          </form> */}
           <div className="data-list mt-5">
             <ul id="comment-list">
               {getCommentList.map((items, index) => {
                 return (
-                  <p key={index}>
-                    <FaIcons.FaRegUserCircle className="users-icons"/> {items.comment}
-                  </p>
-                )
+                  <div key={index}>
+                    <p>
+                      <FaIcons.FaRegUserCircle className="users-icons" />
+                      {items.name}
+                    </p>
+                    <p>รหัสพนักงาน: {items.id}</p>
+                    <p>ความสามารถ: {items.skill}</p>
+                    <p>แผนก: {items.department}</p>
+                  </div>
+                );
               })}
             </ul>
           </div>

@@ -6,9 +6,8 @@ import { CardData } from "../component/CardData";
 export default function Skills() {
   return (
     <div className="content-bg">
-      <div className="container">
         <h1>Skills</h1>
-        <div className="content-box-grid">
+        <div className="content-box">
           {CardData.map((items) => {
             return (
               <div className="pleum-card">
@@ -19,6 +18,5 @@ export default function Skills() {
           })}
         </div>
       </div>
-    </div>
   );
 }
