@@ -27,6 +27,7 @@
   width: 400px;
   border-radius: 0.5rem;
   transition: 0.3s;
+  margin-top: 1rem;
 }
 
 .certificate-card img:hover {
@@ -43,6 +44,31 @@
     padding: 2rem;
     text-align: left;
     box-shadow: #000 1px 3px 3px;
+}
+
+.content-box-grid {
+  margin: 0.5rem;
+    margin-top: 2rem;
+    background-color: #152D35;
+    border-radius: 1.5rem;
+    color: #D4ECDD;
+    padding: 2rem;
+    text-align: left;
+    box-shadow: #000 1px 3px 3px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.content-box-grid-2 {
+  margin: 0.5rem;
+    margin-top: 2rem;
+    background-color: #152D35;
+    border-radius: 1.5rem;
+    color: #D4ECDD;
+    padding: 2rem;
+    text-align: left;
+    box-shadow: #000 1px 3px 3px;
+    display: grid;
+    grid-template-columns: auto auto auto;
 }
 
 .left-side {
@@ -189,6 +215,38 @@ a {
     position: relative;
     border-radius: 6px;
     color: #000;
+  }
+  @media screen and (max-width: 1500px){
+    .content-box-grid {
+      grid-template-columns: auto auto auto;
+    }
+
+    .content-box-grid-2 {
+      grid-template-columns: auto auto;
+    }
+  }
+
+  @media screen and (max-width: 1000px){
+    .left::after, .right::after {
+      left: 15px;
+    }
+  
+  /* Make all right containers behave like the left ones */
+    .right {
+      left: 0%;
+    }
+
+    .timeline::after {
+      left: 31px;
+    }
+
+    .content-box-grid {
+      grid-template-columns: auto auto;
+    }
+
+    .content-box-grid-2 {
+      grid-template-columns: auto;
+    }
   }
   
   /* Media queries - Responsive timeline on screens less than 600px wide */

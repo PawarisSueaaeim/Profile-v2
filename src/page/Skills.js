@@ -7,7 +7,7 @@ export default function Skills() {
   return (
     <div className="content-bg">
         <h1>Skills</h1>
-        <div className="content-box">
+        <div className="content-box-grid">
           {CardData.map((items) => {
             return (
               <div className="pleum-card">
