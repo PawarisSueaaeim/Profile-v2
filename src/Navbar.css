@@ -4,6 +4,7 @@
     border-radius: 2rem 0rem 0rem 2rem;
     box-shadow: #000 1px 3px 9px;
     position: relative;
+    height: auto;
 }
 
 /* ////////////////// this is nav profile css /////////////////*/
@@ -72,7 +73,7 @@ nav span {
 .nav-footer {
     margin: 1rem 1rem;
     bottom: 1%;
-    position: absolute;
+    /* position: absolute; */
 }
 
 .nav-icons {
@@ -93,6 +94,48 @@ nav span {
 /* ////////////////////////////////////////////////////////// */
 
 @media screen and (max-width: 768px) {
+    .nav-bg {
+        margin: 0;
+        border-radius: 0;
+    }
+
+    .nav-menu {
+        display: none;
+    }
+
+    .nav-profile {
+        margin: 0;
+        padding: 0;
+    }
+
+    .nav-footer {
+        position: inherit;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .nav-bg {
+        margin: 0;
+        border-radius: 0;
+    }
+
+    .nav-menu {
+        display: none;
+    }
+
+    .nav-profile {
+        margin: 0;
+        padding: 0;
+    }
+
+    .nav-footer {
+        position: inherit;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 1200px) {
     .nav-bg {
         margin: 0;
         border-radius: 0;
