@@ -1,5 +1,5 @@
 import { db } from "./db";
-import { collection, getDocs, doc, addDoc} from "firebase/firestore";
+import { collection, getDocs, addDoc} from "firebase/firestore";
 
 export function addComment(data) {
   return addDoc(collection(db, 'comment'), data).then((docRef) => {
