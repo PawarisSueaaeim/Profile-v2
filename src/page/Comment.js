@@ -37,7 +37,7 @@ export default function Comment() {
       <div className="container">
         <h1>Comment</h1>
         <div className="content-box">
-          {/* <form id="comment" onSubmit={handleSubmit}>
+          <form id="comment" onSubmit={handleSubmit}>
             <label htmlFor="comment">Comment for me</label>
             <br />
             <input
@@ -55,19 +55,20 @@ export default function Comment() {
             <button onClick={updateCommentList} type="submit" id="btn" className="btn btn-primary mt-3">
               Submit
             </button>
-          </form> */}
+          </form>
           <div className="data-list mt-5">
             <ul id="comment-list">
               {getCommentList.map((items, index) => {
                 return (
                   <div key={index}>
                     <p>
-                      <FaIcons.FaRegUserCircle className="users-icons" />
+                      <FaIcons.FaUserAlt className="users-icons" />
                       {items.name}
                     </p>
-                    <p>รหัสพนักงาน: {items.id}</p>
-                    <p>ความสามารถ: {items.skill}</p>
-                    <p>แผนก: {items.department}</p>
+                    <p>Comment: {items.comment}</p>
+                    <p><FaIcons.FaRegThumbsUp/>:{items.like}</p>
+                    <p><FaIcons.FaRegThumbsDown/>:{items.unlike}</p>
+                    <hr></hr>
                   </div>
                 );
               })}
