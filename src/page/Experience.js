@@ -41,6 +41,17 @@ export default function Experience() {
                 • Manage plan and tasks of network and IT infrastructure team
               </p>
             </div>
+          </div><div className="container-exp left">
+            <div className="content">
+              <h3>Software Tester</h3>
+              <h4>Sep 2022 - Present</h4>
+              <p>Create test case and Support customer</p>
+              <p>• Create test case</p>
+              <p>• Test and report issue</p>
+              <p>
+                • Fix problems with users
+              </p>
+            </div>
           </div>
         </div>
       </div>

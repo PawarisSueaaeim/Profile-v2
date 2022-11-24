@@ -28,11 +28,10 @@ export default function Home() {
           <p>♦ English: Fair</p>
           <p>♦ Japan: A little bit</p>
           <p>
-            Hello, My name is Pawaris Suea-aeim nickname Pleum, I'm 23 years
+            Hello, My name is Pawaris Suea-aeim nickname Pleum, I'm 24 years
             old, I'm graduated from Chiang Mai University faculty computer
-            engineering, Currently living in Rayong and working as a System
-            Engineer/IT Support at The amata city, Is a company related to the
-            production of auto parts.
+            engineering, Currently living in Bangkok and working as a Software Tester 
+            at Mungmee, Is a company related to the platform application.
           </p>
           <p>
             Spatial metavers:{" "}
