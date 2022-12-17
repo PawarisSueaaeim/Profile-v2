@@ -1,6 +1,6 @@
 import React from "react";
 import "../Content.css";
-import { CertificateData } from "../component/CertificateData";
+import { CertificateData } from "../db/CertificateData";
 
 export default function Certificate() {
   return (

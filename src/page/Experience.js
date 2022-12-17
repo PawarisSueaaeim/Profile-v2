@@ -1,7 +1,7 @@
 import React from "react";
 import "../Content.css";
 
-export default function Experience() {
+export default function Experience(props) {
   return (
     <div className="content-bg">
       <h1>Experience</h1>

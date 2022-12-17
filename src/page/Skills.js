@@ -1,7 +1,7 @@
 import React from "react";
 import "../Content.css";
 import "../Card.css";
-import { CardData } from "../component/CardData";
+import { CardData } from "../db/CardData";
 
 export default function Skills() {
   return (
