@@ -3,6 +3,8 @@ import "../Content.css";
 import "../Card.css";
 import { CardData } from "../db/CardData";
 
+//  ใข้ props ในการส่งข้อมูลที่ config มาจาก data file //
+
 export default function Skills() {
   return (
     <div className="content-bg">

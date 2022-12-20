@@ -3,6 +3,8 @@ import "../Content.css";
 import ReactTypingEffect from "react-typing-effect";
 import * as FaIcons from "react-icons/fa";
 
+//  ใข้ props ในการส่งข้อมูลที่ config มาจาก data file //
+
 export default function Home() {
   return (
     <div className="content-bg">

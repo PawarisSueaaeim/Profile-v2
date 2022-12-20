@@ -1,6 +1,15 @@
 function CardExp(props) {
 
-    console.log("this is props of CardExp", props);
+    console.log("this is a CardExp", props);
+    console.log("this is a props children", props.children);
+
+    const {isActive} = props;
+
+    const getClassName = () => {
+        props.children.map(() => {
+            
+        });
+    };
 
     const classes = props.className;
 

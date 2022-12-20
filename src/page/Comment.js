@@ -4,6 +4,8 @@ import * as FaIcons from "react-icons/fa";
 import { useState, useEffect } from "react";
 import { addComment, getComment } from "../db/utilities";
 
+//  ใข้ props ในการส่งข้อมูลที่ config มาจาก data file //
+
 export default function Comment() {
   const [comment, setComment] = useState("");
   const [getCommentList, setGetCommentList] = useState([]);

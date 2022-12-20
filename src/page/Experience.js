@@ -3,6 +3,8 @@ import "../Content.css";
 import { expData } from "../db/expData";
 import CardExp from "../component/subComponents/CardExp";
 
+//  ใข้ props ในการส่งข้อมูลที่ config มาจาก data file //
+
 export default function Experience() {
 
   return (
@@ -10,7 +12,7 @@ export default function Experience() {
       <h1>Experience</h1>
       <div className="content-box">
         <div className="timeline">
-          <CardExp className="container-exp left">
+          <CardExp className="container-exp">
             {expData.map((items) => {
               return (
                 <div className="content">

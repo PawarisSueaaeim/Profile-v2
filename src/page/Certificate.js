@@ -2,6 +2,8 @@ import React from "react";
 import "../Content.css";
 import { CertificateData } from "../db/CertificateData";
 
+//  ใข้ props ในการส่งข้อมูลที่ config มาจาก data file //
+
 export default function Certificate() {
   return (
     <div className="content-bg">
