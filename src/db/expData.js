@@ -1,4 +1,4 @@
-export const expData = [
+export const ExpData = [
     {
         position: "Bachelor's degree of computer engineering",
         time: "August 2017 - May 2021",
