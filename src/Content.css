@@ -26,6 +26,9 @@
   border-radius: 0.5rem;
   transition: 0.3s;
   margin-top: 1rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .certificate-card img:hover {
@@ -63,7 +66,7 @@
     border-radius: 1.5rem;
     color: #D4ECDD;
     padding: 2rem;
-    text-align: left;
+    text-align: center;
     box-shadow: #000 1px 3px 3px;
     display: grid;
     grid-template-columns: auto auto auto;
@@ -230,6 +233,10 @@ a {
       margin: auto 0;
     }
 
+    .certificate-card {
+      width: 300px;
+    }
+
     .content-box-grid-2 {
       grid-template-columns: auto auto;
       width: 100%;
@@ -300,6 +307,10 @@ a {
       grid-template-columns: auto auto;
     }
 
+    .certificate-card {
+      width: 400px;
+    }
+
     .content-box-grid-2 {
       grid-template-columns: auto;
     }
@@ -317,6 +328,14 @@ a {
       width: 100%;
       padding-left: 70px;
       padding-right: 25px;
+    }
+
+    .certificate-card {
+      width: 400px;
+    }
+
+    .content-box-grid-2 {
+      grid-template-columns: auto;
     }
   
   /* Make sure that all arrows are pointing leftwards */
