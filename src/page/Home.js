@@ -8,7 +8,7 @@ import * as FaIcons from "react-icons/fa";
 export default function Home() {
   return (
     <div className="content-bg">
-      <h1>Home</h1>
+      <h4>Home</h4>
       <div className="content-box">
         <div className="left-side">
           <ReactTypingEffect

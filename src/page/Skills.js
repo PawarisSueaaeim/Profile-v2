@@ -8,7 +8,7 @@ import { CardData } from "../db/CardData";
 export default function Skills() {
   return (
     <div className="content-bg">
-        <h1>Skills</h1>
+        <h4>Skills</h4>
         <div className="content-box-grid">
           {CardData.map((items) => {
             return (

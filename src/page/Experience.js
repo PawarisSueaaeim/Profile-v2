@@ -9,15 +9,15 @@ export default function Experience() {
 
   return (
     <div className="content-bg">
-      <h1>Experience</h1>
+      <h4>Experience</h4>
       <div className="content-box">
         <div className="timeline">
           <CardExp className="container-exp">
             {ExpData.map((items) => {
               return (
                 <div className="content">
-                  <h3>{items.position}</h3>
-                  <h4>{items.time}</h4>
+                  <h5>{items.position}</h5>
+                  <h6>{items.time}</h6>
                   <p>{items.title}</p>
                   <p>{items.detail}</p>
                 </div>

@@ -23,33 +23,24 @@ export default function Navbar() {
         })}
       </div>
       <div className="nav-menu">
-        <ul>
-          <CustomLink to="/" className="nav-menu">
-            <FaIcons.FaHome />
-            <span>Home</span>
-          </CustomLink>
-          <CustomLink to="/Skills" className="nav-menu">
-            <FaIcons.FaCode />
-            <span>Skills</span>
-          </CustomLink>
-          <CustomLink to="/Experience" className="nav-menu">
-            <FaIcons.FaSuitcase />
-            <span>Experience</span>
-          </CustomLink>
-          <CustomLink to="/Certificate" className="nav-menu">
-            <FaIcons.FaCertificate />
-            <span>Certificate</span>
-          </CustomLink>
-          <CustomLink to="/Comment" className="nav-menu">
-            <FaIcons.FaSmile />
-            <span>Comment</span>
-          </CustomLink>
-        </ul>
+        {listMenu.map((items) => {
+          return (
+            <ul>
+              <CustomLink to={items.link} className='m-4'>
+                {items.icon}<span>{items.lable}</span>
+              </CustomLink>
+            </ul>
+          );
+        })}
       </div>
       <div className="nav-footer">
-        <br/>
-        <p className="text">© 2022 Pawaris Suea-aeim Computer Engineering</p>
+        {footerNavbar.map((items,index) => {
+          return (
+            <div className='nav-icons'>{items.item}</div>
+          );
+        })}
       </div>
+      <p className="text">© 2022 Pawaris Suea-aeim Computer Engineering</p>
     </nav>
   );
 }

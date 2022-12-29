@@ -13,19 +13,24 @@ export const headNavbar = [
 export const listMenu = [
     {
         lable: 'Home',
-        icon: <FaIcons.FaHome />
+        icon: <FaIcons.FaHome />,
+        link: '/'
     },{
         lable: 'Skills',
-        icon: <FaIcons.FaCode />
+        icon: <FaIcons.FaCode />,
+        link: '/Skills'
     },{
         lable: 'Experience',
-        icon: <FaIcons.FaSuitcase />
+        icon: <FaIcons.FaSuitcase />,
+        link: '/Experience'
     },{
         lable: 'Certificate',
-        icon: <FaIcons.FaCertificate />
+        icon: <FaIcons.FaCertificate />,
+        link: '/Certificate'
     },{
         lable: 'Comment',
-        icon: <FaIcons.FaSmile />
+        icon: <FaIcons.FaSmile />,
+        link: '/Comment'
     },
 ];
 

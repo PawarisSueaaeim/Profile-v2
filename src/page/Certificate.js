@@ -7,7 +7,7 @@ import { CertificateData } from "../db/CertificateData";
 export default function Certificate() {
   return (
     <div className="content-bg">
-      <h1>Certificate</h1>
+      <h4>Certificate</h4>
       <div className="content-box-grid-2">
         {CertificateData.map((items) => {
           return <div className="certificate-card">{items.image}</div>;
